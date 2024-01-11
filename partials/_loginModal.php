@@ -1,17 +1,18 @@
 <!-- Button trigger modal -->
-<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">
     Launch demo modal
-</button> -->
+</button>
 
 <!-- Modal -->
 <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
+                  
                 <h1 class="modal-title fs-5" id="loginModalLabel">login to Modal title</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form>
+            <form action="/forum/partials/_handleSignup.php" method="post">
             <div class="modal-body">
                 
                     <div class="mb-3">

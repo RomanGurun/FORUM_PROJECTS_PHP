@@ -88,7 +88,7 @@ if($showAlert){
                 Remain respectful of other members at all times.
 
             </p>
-            <p><b>Posted by : Harry </b></p>
+            <p>Posted by : <b>Harry </b></p>
             <a class="btn btn-success btn-lg" href="#" role="button">Learn more</a>
         </div>
     </div>

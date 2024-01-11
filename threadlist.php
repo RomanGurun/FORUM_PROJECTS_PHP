@@ -131,13 +131,14 @@ $noResult=false;
 // thread id is 11111 only lai focus xa so browse question is of foreign key only.......
 $title =$row['thread_title'];
 $desc=$row['thread_desc'];
+$thread_time=$row['timestamp'];
 // comment of h5 inside echo.....
 // ============================== Important Comments ===============================================
 // here html threadid = dollar id xa. when we uses get[thread_id] then we will get a dollar id value of thread table.
 echo'<div class="media my-3">
   <img class="mr-3" src="./partials/download.jpg" width="54px" alt="Generic placeholder image">
   <div class="media-body">
-
+  <p class="font-weight-bold bold"><b>Anonymous Users at '.$thread_time.'</b></p>
     <h5 class="mt-0"><a class="text-dark" href="thread.php?threadid='.$id.'">'.$title.'</a></h5>
     '.$desc.'
   </div>

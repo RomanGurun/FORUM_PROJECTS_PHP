@@ -55,4 +55,18 @@ echo'<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 include 'partials/_loginModal.php';
 include 'partials/_signupModal.php';
 
+// ============================================signupsuccess inside get request is a parameter =======================================================
+// buit little confuse lagyoooooo
+// =================================yesto rayxa url of header function ko as a parameter ============================================
+//================================= get lya catch garxa rayxa =============================================================================
+
+if(isset($_GET['signupsuccess']) && $_GET['signupsuccess']=="true"){
+
+    // echo"yes";
+
+   echo '<div class="alert alert-success alert-dismissible fade show my-0" role="alert">
+        <strong>Success!</strong> You can now login
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>';
+}
 ?>
